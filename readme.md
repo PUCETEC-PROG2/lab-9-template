@@ -9,9 +9,10 @@ Por otra parte se aplica el uso de Modelos en Django y uso de bases de datos rel
 - El estudiante reforzará sus conocimientos de POO y manejo de bases de datos relacionales a través del uso de modelos en Django
 
 ## Tareas a realizar
-1. Crear la aplicación para la gestión de Pokemones
-2. Crear la página inicial
-3. Crear la página de detalles
+1. Generación de Modelos de Pokemon y Trainer
+2. Generación de migraciones.
+3. Despliegue de Pokemones en Templates lista y detalle
+4. Despliegue de Entrenadores en Templates lista y detalle
 
 ## Instalación del ambiente
 
@@ -67,32 +68,69 @@ En caso de querer desactivar el ambiente usar
 deactivate
 ~~~
 
-## Iniciar el servidor
+## Comandos útiles
 
-Para inicial el servidor se debe activar el ambiente virtual (revisar paso anterior) ejecutar el siguiente comando
-
-### Linux o MaCOS
+### Iniciar servidor
+#### Linux o MaCOS
 ~~~
 python3 manage.py runserver
 ~~~
-### Windows
+#### Windows
 ~~~
 python manage.py runserver
 ~~~
 
 Una vez inicializado el servidor se deberá dirigir al siguiente enlace: <http://localhost:8000>
 
-## Crear nueva aplicación
-
-Para generar la primera aplicación se deberá ejecutar el siguiente comando
-
-### Linux o MaCOS
+### Crear nueva aplicación
+#### Linux o MaCOS
 ~~~
-python3 manage.py startapp pokedex
+python3 manage.py startapp <nombre_de_la_aplicacion>
 ~~~
-### Windows
+#### Windows
 ~~~
-python manage.py startapp pokedex
+python manage.py startapp <nombre_de_la_aplicacion>
 ~~~
 
-Para los siguientes pasos se deberán seguir las instrucciones del docente en clase. No olvide que puedes contactarlo a <paperez@puce.edu.ec>
+### Crear Súper Usuario
+#### Linux o MaCOS
+~~~
+python3 manage.py createsuperuser
+~~~
+#### Windows
+~~~
+python manage.py createsuperuser
+~~~
+
+### Generar archivos de migración
+#### Linux o MaCOS
+~~~
+python3 manage.py makemigrations
+~~~
+#### Windows
+~~~
+python manage.py makemigrations
+~~~
+
+### Migrar a bases de datos
+#### Linux o MaCOS
+~~~
+python3 manage.py migrate
+~~~
+#### Windows
+~~~
+python manage.py migrate
+~~~
+
+### Almacenar depdendencias y librerías instaladas
+#### Linux o MaCOS
+~~~
+pip3 freeze > requirements.txt
+~~~
+#### Windows
+~~~
+pip freeze > requirements.txt
+~~~
+
+# Nota
+Para los siguientes pasos se deberán seguir las instrucciones del docente en clase. No olvide que puedes contactarlo a <paperez@puce.edu.ec> o a <pablo.perez@uisek.edu.ec> dependiendo de la institución donde te encuentres
