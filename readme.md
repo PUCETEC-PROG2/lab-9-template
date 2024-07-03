@@ -1,4 +1,4 @@
-# Laboratorio 7. Taller Inicial de Django: Views y Templates
+# Laboratorio 8. Taller Inicial de Django: Views, Templates y Modelos
 
 Este laboratorio está diseñado para que los participantes puedan aprender y reforzar sus conocimientos de Python, HTML y CSS mediante la creación de una lista de Pokemones y una página de datalle. Utilizando como framework de desarrollo MVC a Django. De la misma manera se hará una introduccion a Bootstrap para el uso de librerías de Interfaz de usuario en HTML.
 
