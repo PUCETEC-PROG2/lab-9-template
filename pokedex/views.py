@@ -1,12 +1,14 @@
 from django.http import HttpResponse
 from django.template import loader
+from .models import Pokemon, Trainer
 
 def index(request):
-    pokemons = ['charmander', 'pikachu', 'squirtle']
+    pokemons = Pokemon.objects.order_by('name')
     template = loader.get_template('index.html')
     return HttpResponse(template.render({'pokemons': pokemons}, request))
 
-def pokemon(request, pokemon):
+def pokemon(request, id):
+    pokemon = Pokemon.objects.get(pk=id)
     template = loader.get_template('display_pokemon.html')
     context = {
         'pokemon': pokemon
