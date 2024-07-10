@@ -122,6 +122,16 @@ python3 manage.py migrate
 python manage.py migrate
 ~~~
 
+### Desplegar SQL's ejecutados en migración
+#### Linux o MaCOS
+~~~
+python3 manage.py sqlmigrate pokedex 0001
+~~~
+#### Windows
+~~~
+python manage.py sqlmigrate pokedex 0001
+~~~
+
 ### Almacenar depdendencias y librerías instaladas
 #### Linux o MaCOS
 ~~~
