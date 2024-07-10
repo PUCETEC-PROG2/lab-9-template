@@ -71,7 +71,7 @@ deactivate
 ## Comandos útiles
 
 ### Iniciar servidor
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 python3 manage.py runserver
 ~~~
@@ -83,7 +83,7 @@ python manage.py runserver
 Una vez inicializado el servidor se deberá dirigir al siguiente enlace: <http://localhost:8000>
 
 ### Crear nueva aplicación
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 python3 manage.py startapp <nombre_de_la_aplicacion>
 ~~~
@@ -93,7 +93,7 @@ python manage.py startapp <nombre_de_la_aplicacion>
 ~~~
 
 ### Crear Súper Usuario
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 python3 manage.py createsuperuser
 ~~~
@@ -103,7 +103,7 @@ python manage.py createsuperuser
 ~~~
 
 ### Generar archivos de migración
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 python3 manage.py makemigrations
 ~~~
@@ -113,7 +113,7 @@ python manage.py makemigrations
 ~~~
 
 ### Migrar a bases de datos
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 python3 manage.py migrate
 ~~~
@@ -123,7 +123,7 @@ python manage.py migrate
 ~~~
 
 ### Desplegar SQL's ejecutados en migración
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 python3 manage.py sqlmigrate pokedex 0001
 ~~~
@@ -133,7 +133,7 @@ python manage.py sqlmigrate pokedex 0001
 ~~~
 
 ### Almacenar depdendencias y librerías instaladas
-#### Linux o MaCOS
+#### Linux o MacOS
 ~~~
 pip3 freeze > requirements.txt
 ~~~
