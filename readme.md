@@ -1,8 +1,8 @@
-# Laboratorio 8. Taller Inicial de Django: Views, Templates y Modelos
+# Laboratorio 9. Django: Views, Templates y Modelos
 
-Este laboratorio está diseñado para que los participantes puedan aprender y reforzar sus conocimientos de Python, HTML y CSS mediante la creación de una lista de Pokemones y una página de datalle. Utilizando como framework de desarrollo MVC a Django. De la misma manera se hará una introduccion a Bootstrap para el uso de librerías de Interfaz de usuario en HTML.
+Este laboratorio está diseñado para que los participantes puedan aprender y reforzar sus conocimientos de Python, HTML y CSS mediante la creación de una lista de Pokemones y una página de datalle; basándose en el ejercicio del laboratorio 8. Utilizando como framework de desarrollo MVC a Django. De la misma manera se hará una introduccion a Bootstrap para el uso de librerías de Interfaz de usuario en HTML.
 
-Por otra parte se aplica el uso de Modelos en Django y uso de bases de datos relacionales en PostgreSQL
+Para el presente laboratorio se añadirá características adicionales como expandir los tipos de datos en los modelos, relacionar entidades y trabajar con archivos estáticos, aplicando el uso de bases de datos relacionales en PostgreSQL
 
 ## Objetivos 
 - El estudiante debe ser capaz de reconocer y aplicar conceptos básicos del Paradigma Orientado a Objetos (POO) como: Clases, Ojetos, Atributos, Métodos. Así mismo el presente proyecto introduce al desarrollo de aplicaciones Web mediante el uso de Django como marco de trabajo para el desarrollo.
